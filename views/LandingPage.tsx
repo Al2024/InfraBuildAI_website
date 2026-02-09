@@ -92,10 +92,10 @@ const LandingPage: React.FC = () => {
                   <div className="mb-10 w-16 h-16 rounded-2xl bg-slate-800 flex items-center justify-center text-slate-400 group-hover:bg-slate-700 group-hover:text-white transition-all">
                     <IBIcon name="server" size={32} />
                   </div>
-                  <h3 className="text-3xl font-black text-white mb-3 uppercase tracking-tighter">InfraSync</h3>
+                  <h3 className="text-3xl font-black text-white mb-3 uppercase tracking-tighter">PursuitIQ</h3>
                   <IBBadge color="slate" className="mb-8 w-fit text-[10px] font-mono tracking-widest">STABLE_BUILD</IBBadge>
                   <p className="text-slate-400 text-base leading-relaxed mb-12 flex-1">
-                    Cloud-native orchestration layer that synchronizes multi-region clusters with zero-latency overhead. Built for the hyper-scale enterprise.
+                    Description forthcoming.
                   </p>
                   <div className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">Enterprise Tier Required</div>
                 </div>
@@ -107,10 +107,10 @@ const LandingPage: React.FC = () => {
                   <div className="mb-10 w-16 h-16 rounded-2xl bg-slate-800 flex items-center justify-center text-slate-400 group-hover:bg-slate-700 group-hover:text-white transition-all">
                     <IBIcon name="data" size={32} />
                   </div>
-                  <h3 className="text-3xl font-black text-white mb-3 uppercase tracking-tighter">FlowCore</h3>
+                  <h3 className="text-3xl font-black text-white mb-3 uppercase tracking-tighter">MasterSeries</h3>
                   <IBBadge color="slate" className="mb-8 w-fit text-[10px] font-mono tracking-widest">BETA_READY</IBBadge>
                   <p className="text-slate-400 text-base leading-relaxed mb-12 flex-1">
-                    Data lake ingestion engine with real-time schema mapping and automated cleansing. The bedrock of our data-first consultancy.
+                    Description forthcoming.
                   </p>
                   <div className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">Documentation Access: Pending</div>
                 </div>
