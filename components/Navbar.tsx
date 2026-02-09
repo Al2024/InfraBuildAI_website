@@ -32,7 +32,6 @@ const Navbar: React.FC<NavbarProps> = ({ onMenuClick }) => {
       <div className="hidden md:flex items-center gap-8">
         <Link to="/" className={`text-sm font-medium transition-colors ${location.pathname === '/' ? 'text-brand-400' : 'text-slate-400 hover:text-white'}`}>Home</Link>
         <Link to="/dashboard" className={`text-sm font-medium transition-colors ${location.pathname === '/dashboard' ? 'text-brand-400' : 'text-slate-400 hover:text-white'}`}>Dashboard</Link>
-        <Link to="/consultant" className={`text-sm font-medium transition-colors ${location.pathname === '/consultant' ? 'text-brand-400' : 'text-slate-400 hover:text-white'}`}>AI Consultant</Link>
         <Link to="/style-guide" className={`text-sm font-medium transition-colors ${location.pathname === '/style-guide' ? 'text-brand-400' : 'text-slate-400 hover:text-white'}`}>Style Guide</Link>
       </div>
 

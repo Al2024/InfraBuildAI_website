@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import LandingPage from './views/LandingPage';
 import Dashboard from './views/Dashboard';
-import AIConsultant from './views/AIConsultant';
 import StyleGuide from './views/StyleGuide';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
@@ -33,7 +32,6 @@ const AppContent: React.FC = () => {
             <Routes>
               <Route path="/" element={<LandingPage />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/consultant" element={<AIConsultant />} />
               <Route path="/style-guide" element={<StyleGuide />} />
             </Routes>
           </div>

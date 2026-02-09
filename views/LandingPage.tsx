@@ -79,10 +79,10 @@ const LandingPage: React.FC = () => {
                   <p className="text-slate-400 text-base leading-relaxed mb-12 flex-1">
                     Advanced AI psychometric platform utilizing the Big Five model to map leadership DNA and career trajectories with 99% accuracy.
                   </p>
-                  <Link to="/consultant" className="group/link flex items-center gap-2 text-brand-500 text-xs font-black uppercase tracking-widest hover:text-brand-300 transition-colors">
+                  <span className="group/link flex items-center gap-2 text-brand-500 text-xs font-black uppercase tracking-widest">
                     Explore Architecture
-                    <svg className="w-5 h-5 transform group-hover/link:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                  </Link>
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                  </span>
                 </div>
               </IBCard>
 
