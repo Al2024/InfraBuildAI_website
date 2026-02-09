@@ -1,0 +1,8 @@
+{
+  "name": "InfraBuild AI Design System",
+  "description": "A comprehensive, modern, sleek, and minimalist design system and application suite for InfraBuild AI, a data solutions and AI consultancy.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
