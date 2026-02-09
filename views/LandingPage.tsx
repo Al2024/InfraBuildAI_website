@@ -2,7 +2,6 @@
 import React from 'react';
 import { IBButton, IBCard, IBBadge, IBIcon, IBProgress } from '../components/UI';
 import { ButtonVariant } from '../types';
-import { Link } from 'react-router-dom';
 
 const LandingPage: React.FC = () => {
   return (
@@ -87,19 +86,27 @@ const LandingPage: React.FC = () => {
               </IBCard>
 
               {/* App 2 */}
-              <IBCard className="group border-slate-800 hover:border-slate-700 hover:-translate-y-4 transition-all duration-500 bg-slate-950/80 p-0 shadow-2xl">
-                <div className="p-8 flex flex-col h-full">
-                  <div className="mb-10 w-16 h-16 rounded-2xl bg-slate-800 flex items-center justify-center text-slate-400 group-hover:bg-slate-700 group-hover:text-white transition-all">
-                    <IBIcon name="server" size={32} />
+              <a
+                href="https://pursuitiq-xi.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+                aria-label="Open PursuitIQ app"
+              >
+                <IBCard className="group border-slate-800 hover:border-slate-700 hover:-translate-y-4 transition-all duration-500 bg-slate-950/80 p-0 shadow-2xl">
+                  <div className="p-8 flex flex-col h-full">
+                    <div className="mb-10 w-16 h-16 rounded-2xl bg-slate-800 flex items-center justify-center text-slate-400 group-hover:bg-slate-700 group-hover:text-white transition-all">
+                      <IBIcon name="server" size={32} />
+                    </div>
+                    <h3 className="text-3xl font-black text-white mb-3 uppercase tracking-tighter">PursuitIQ</h3>
+                    <IBBadge color="slate" className="mb-8 w-fit text-[10px] font-mono tracking-widest">STABLE_BUILD</IBBadge>
+                    <p className="text-slate-400 text-base leading-relaxed mb-12 flex-1">
+                      Description forthcoming.
+                    </p>
+                    <div className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">Enterprise Tier Required</div>
                   </div>
-                  <h3 className="text-3xl font-black text-white mb-3 uppercase tracking-tighter">PursuitIQ</h3>
-                  <IBBadge color="slate" className="mb-8 w-fit text-[10px] font-mono tracking-widest">STABLE_BUILD</IBBadge>
-                  <p className="text-slate-400 text-base leading-relaxed mb-12 flex-1">
-                    Description forthcoming.
-                  </p>
-                  <div className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">Enterprise Tier Required</div>
-                </div>
-              </IBCard>
+                </IBCard>
+              </a>
 
               {/* App 3 */}
               <IBCard className="group border-slate-800 hover:border-slate-700 hover:-translate-y-4 transition-all duration-500 bg-slate-950/80 p-0 shadow-2xl">
